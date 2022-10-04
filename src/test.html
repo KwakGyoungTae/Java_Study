@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script type="text/javascript">
+        $(function (){
+            $("#nav1").click(function (){
+                $("#tb1").toggle("fast");
+            });
+
+        });
+
+
+    </script>
+</head>
+<body>
+
+<h3>결과 HTML 은 다음과 같은 형식으로 표시합니다.</h3>
+<nav>
+    <a href="#" id="nav1">테이블 -1</a><br>
+    <a href="#" id="nav2">테이블 -2</a><br>
+    <a href="#" id="nav3">테이블 -2</a>
+</nav>
+<hr>
+<hr style="border: 1px solid black; width: ">
+
+<table style="border: black 1px solid; width: 800px; height: 600px;" id="tb1">
+    <caption>테이블 1</caption>
+    <tr style="background: ">
+        <td>칼럼명</td>
+        <td>데이터 타입</td>
+        <td>길이</td>
+        <td>PK</td>
+        <td>Null</td>
+    </tr>
+
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+
+</table>
+
+<table style="border: black 1px solid; width: 800px; height: 600px; text-align: center;" id="tb2">
+    <caption style="caption-side: ">테이블 2</caption>
+    <tr style="width: 200px; height: 150px; font-">
+        <td colspan="">칼럼명</td>
+        <td>데이터 타입</td>
+        <td>길이</td>
+        <td>PK</td>
+        <td>Null</td>
+    </tr>
+
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+
+</table>
+
+<table style="border: black 1px solid; width: 800px; height: 600px;" id="tb3">
+    <caption>테이블 3</caption>
+    <tr style="width: 200px; height: 150px;">
+        <td>칼럼명</td>
+        <td>데이터 타입</td>
+        <td>길이</td>
+        <td>PK</td>
+        <td>Null</td>
+    </tr>
+
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+
+</table>
+</body>
+</html>

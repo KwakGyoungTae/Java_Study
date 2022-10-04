@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<trip>
+    <city cityname="london" country="united-kingdom" landmark="tower-bridge" language="english" mainground="europe"/>
+    <city cityname="barcelona" country="spain" landmark="sagrada-famlia" language="spainish" mainground="europe"/>
+    <city cityname="loma" country="italy" landmark="colosseum" language="ltalian" mainground="europe"/>
+    <city cityname="newyork" country="usa" landmark="statue-of-liberty" language="english" mainground="north-america"/>
+    <city cityname="busan" country="korea" landmark="guangan-bridge" language="korean" mainground="asia"/>
+    <city cityname="osaka" country="japan" landmark="osaka-castle" language="japanese" mainground="asia"/>
+    <city cityname="praha" country="czech" landmark="karluv-most" language="cestina" mainground="europe"/>
+    <city cityname="paris" country="france" landmark="eiffel-tower" language="french" mainground="europe"/>
+    <city cityname="berlin" country="germary" landmark="brandenburger" language="german" mainground="europe"/>
+    <city cityname="sevilla" country="spain" landmark="plaza-de-espana" language="spainish" mainground="europe"/>
+</trip>

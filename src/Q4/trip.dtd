@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <!ELEMENT trip (city)*>
+        <!ELEMENT city (#PCDATA)>
+
+        <!ATTLIST city cityname CDATA #REQUIRED>
+        <!ATTLIST city country CDATA #REQUIRED>
+        <!ATTLIST city mainground CDATA #REQUIRED>
+        <!ATTLIST city landmark CDATA #REQUIRED>
+        <!ATTLIST city language CDATA #REQUIRED>
+
+
+

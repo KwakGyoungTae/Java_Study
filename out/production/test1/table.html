@@ -1,0 +1,258 @@
+<html><head>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+<script type='text/javascript'>
+$(function() {
+$('.span0').click(function(){ $('.table0').toggle('slow');})
+$('.span1').click(function(){ $('.table1').toggle('slow');})
+$('.span2').click(function(){ $('.table2').toggle('slow');})
+});
+</script>
+</head>
+<body>
+<h2>테이블 명 목록</h2>
+<span class='BUS'>BUS</span><br>
+<span class='FRIEND'>FRIEND</span><br>
+<span class='INTERN'>INTERN</span><br>
+<hr style='border: lightskyblue 2px solid;'>
+<table class='BUS' style='border : 2px solid lavender; width : 100%;text-align: center;'>
+<caption style='caption-side : inherit;'>BUS</caption>
+<tr style='background : lavender;'>
+<td>컬럼명</td>
+<td>데이터 타입</td>
+<td>길이</td>
+<td>PK</td>
+<td>Null</td>
+<td>최빈값</td>
+</tr>
+<tr>
+<td>NUM</td>
+<td>NUMBER</td>
+<td>5</td>
+<td>PK</td>
+<td>NN</td>
+<td style='text-align: left;'>
+1
+1
+1
+1
+1
+1
+</td>
+</tr>
+<tr>
+<td>END_TERMINAL</td>
+<td>VARCHAR2</td>
+<td>100</td>
+<td></td>
+<td>NN</td>
+<td style='text-align: left;'>
+3
+1
+1
+1
+1
+1
+</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>VARCHAR2</td>
+<td>20</td>
+<td></td>
+<td>NN</td>
+<td style='text-align: left;'>
+1
+1
+1
+1
+1
+1
+</td>
+</tr>
+<tr>
+<td>PAY</td>
+<td>NUMBER</td>
+<td>10</td>
+<td></td>
+<td>NN</td>
+<td style='text-align: left;'>
+3
+2
+1
+1
+1
+1
+</td>
+</tr>
+<tr>
+<td>START_TERMINAL</td>
+<td>VARCHAR2</td>
+<td>100</td>
+<td></td>
+<td>NN</td>
+<td style='text-align: left;'>
+1
+1
+1
+1
+1
+1
+</td>
+</tr>
+<tr>
+<td>KIND</td>
+<td>VARCHAR2</td>
+<td>40</td>
+<td></td>
+<td></td>
+<td style='text-align: left;'>
+4
+1
+1
+0
+</td>
+</tr>
+<tr style='background : lavender;'>
+<td>인덱스 명</td>
+<td colspan='5'>컬럼</td>
+</tr>
+<tr>
+<td>SYS_C0011065</td>
+<td colspan='4'>NUM</td>
+</tr>
+</table>
+<table class='FRIEND' style='border : 2px solid lavender; width : 100%;text-align: center;'>
+<caption style='caption-side : inherit;'>FRIEND</caption>
+<tr style='background : lavender;'>
+<td>컬럼명</td>
+<td>데이터 타입</td>
+<td>길이</td>
+<td>PK</td>
+<td>Null</td>
+<td>최빈값</td>
+</tr>
+<tr>
+<td>NUM</td>
+<td>NUMBER</td>
+<td>5</td>
+<td>PK</td>
+<td>NN</td>
+<td style='text-align: left;'>
+1
+1
+1
+1
+1
+1
+</td>
+</tr>
+<tr>
+<td>HP</td>
+<td>VARCHAR2</td>
+<td>100</td>
+<td></td>
+<td>NN</td>
+<td style='text-align: left;'>
+1
+1
+1
+1
+1
+1
+</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>VARCHAR2</td>
+<td>20</td>
+<td></td>
+<td>NN</td>
+<td style='text-align: left;'>
+1
+1
+1
+1
+1
+1
+</td>
+</tr>
+<tr>
+<td>ADDR</td>
+<td>VARCHAR2</td>
+<td>100</td>
+<td></td>
+<td></td>
+<td style='text-align: left;'>
+2
+2
+1
+1
+0
+</td>
+</tr>
+<tr style='background : lavender;'>
+<td>인덱스 명</td>
+<td colspan='5'>컬럼</td>
+</tr>
+<tr>
+<td>SYS_C0011056</td>
+<td colspan='4'>NUM</td>
+</tr>
+</table>
+<table class='INTERN' style='border : 2px solid lavender; width : 100%;text-align: center;'>
+<caption style='caption-side : inherit;'>INTERN</caption>
+<tr style='background : lavender;'>
+<td>컬럼명</td>
+<td>데이터 타입</td>
+<td>길이</td>
+<td>PK</td>
+<td>Null</td>
+<td>최빈값</td>
+</tr>
+<tr>
+<td>NUM</td>
+<td>NUMBER</td>
+<td>5</td>
+<td>PK</td>
+<td>NN</td>
+<td style='text-align: left;'>
+</td>
+</tr>
+<tr>
+<td>GENDER</td>
+<td>VARCHAR2</td>
+<td>10</td>
+<td></td>
+<td>NN</td>
+<td style='text-align: left;'>
+</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>VARCHAR2</td>
+<td>20</td>
+<td></td>
+<td>NN</td>
+<td style='text-align: left;'>
+</td>
+</tr>
+<tr>
+<td>CONTRY</td>
+<td>VARCHAR2</td>
+<td>30</td>
+<td></td>
+<td></td>
+<td style='text-align: left;'>
+</td>
+</tr>
+<tr style='background : lavender;'>
+<td>인덱스 명</td>
+<td colspan='5'>컬럼</td>
+</tr>
+<tr>
+<td>SYS_C0011068</td>
+<td colspan='4'>NUM</td>
+</tr>
+</table>
+</body>
+</html>
